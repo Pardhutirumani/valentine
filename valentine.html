@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Valentine</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #ff4d6d, #ff8fa3);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .box {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 45px;
+            border-radius: 25px;
+            backdrop-filter: blur(8px);
+        }
+
+        h1 {
+            margin-bottom: 30px;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 25px;
+            justify-content: center;
+        }
+
+        .btn {
+            text-decoration: none;
+            padding: 15px 35px;
+            font-size: 1.2rem;
+            border-radius: 30px;
+            font-weight: bold;
+            transition: transform 0.2s;
+        }
+
+        .btn:hover {
+            transform: scale(1.08);
+        }
+
+        .yes {
+            background: white;
+            color: #ff4d6d;
+        }
+
+        .no {
+            background: #ff4d6d;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box">
+        <h1>Will You Be My Valentine? 💘</h1>
+        <div class="buttons">
+            
+            <a href="yes.html" class="btn yes">Yes 💖</a>
+          
+            <a href="no.html" class="btn no">No 💔</a>
+        </div>
+    </div>
+
+</body>
+</html>
